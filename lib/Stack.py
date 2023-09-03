@@ -30,8 +30,7 @@ class Stack:
         return len(self.items)
 
     def full(self):
-
-        if (len(self.items) >= self.limit):
+        if (len(self.items) == self.limit):
             return True
         return False
 
